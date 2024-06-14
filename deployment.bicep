@@ -27,6 +27,10 @@ resource environment 'Microsoft.App/managedEnvironments@2022-03-01' existing = {
 
 
 resource containerApp 'Microsoft.App/containerApps@2023-11-02-preview' = {
+  dependsOn: [
+    environment
+  ]
+
   name: containerAppName
   location: location
   properties: {

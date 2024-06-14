@@ -5,7 +5,7 @@ az deployment group create \
   --template-file ./deployment.bicep \
   --parameters \
     environmentName="managedEnvironment-kedsouzacanovne-82d8" \
-    containerAppName="kedsouza-example1-nginx-1" \
+    containerAppName="kedsouza-example1-nginx-3" \
     azureStorageAccountName="kedsouzastorageaccount" \
     azureFilesAccountKey="24sTSshorNGhUkyeXj6voXvZWPBeII/jL5I8UHJGkwtqOWfgXWU4woTh4qudJnrn9x7QDkDt17ku+AStjtbjBw==" \
     azureFilesShareName="fileshare2" \
